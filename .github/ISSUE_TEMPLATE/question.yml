@@ -1,0 +1,26 @@
+name: Question
+description: Ask how something works
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions are answered faster in [Discussions Q&A](https://github.com/prod-forge/backend/discussions/categories/q-a). Open an issue only if the answer should change the documentation.
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - backend
+        - frontend
+        - terraform
+        - .github
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Say what you tried and which chapter you read.
+    validations:
+      required: true
