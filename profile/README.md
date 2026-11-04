@@ -14,11 +14,11 @@ systems at scale, and every major technical decision is documented and explained
 
 Read the guides in this order:
 
-| Step | Guide                                                              | Chapters | Time    | Question it answers                                             |
-| ---- | ------------------------------------------------------------------ | -------- | ------- | --------------------------------------------------------------- |
-| 1    | [Backend guide](https://github.com/prod-forge/backend#readme)      | 16       | ~3 h    | How do I build and operate a production-ready API?              |
-| 2    | [Frontend guide](https://github.com/prod-forge/frontend#readme)    | 17       | ~2 h    | How do I build, ship, and keep web and mobile clients healthy?  |
-| 3    | [Infrastructure guide](https://github.com/prod-forge/terraform#readme) | 15   | ~1.5 h  | How do I run all of it on AWS with code, not clicks?            |
+| Step | Guide                                                                  | Chapters | Time   | Question it answers                                            |
+| ---- | ---------------------------------------------------------------------- | -------- | ------ | -------------------------------------------------------------- |
+| 1    | [Backend guide](https://github.com/prod-forge/backend#readme)          | 16       | ~3 h   | How do I build and operate a production-ready API?             |
+| 2    | [Frontend guide](https://github.com/prod-forge/frontend#readme)        | 17       | ~2 h   | How do I build, ship, and keep web and mobile clients healthy? |
+| 3    | [Infrastructure guide](https://github.com/prod-forge/terraform#readme) | 15       | ~1.5 h | How do I run all of it on AWS with code, not clicks?           |
 
 ## Architecture and stack
 
@@ -58,11 +58,11 @@ Read the guides in this order:
 
 ## Status
 
-| Repository                                          | Last release | CI                                                                                                                  | Docs chapters |
-| --------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------- | ------------- |
-| [backend](https://github.com/prod-forge/backend)    | `v0.2.0`     | Runs on pull requests and pushes to `main`                                                                          | 16            |
-| [frontend](https://github.com/prod-forge/frontend)  | `v1.2.2`     | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md)                 | 17            |
-| [terraform](https://github.com/prod-forge/terraform) | no release yet | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)                      | 15            |
+| Repository                                           | Last release   | CI                                                                                                  | Docs chapters |
+| ---------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------- | ------------- |
+| [backend](https://github.com/prod-forge/backend)     | `v0.2.0`       | Runs on pull requests and pushes to `main`                                                          | 16            |
+| [frontend](https://github.com/prod-forge/frontend)   | `v1.2.2`       | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md) | 17            |
+| [terraform](https://github.com/prod-forge/terraform) | no release yet | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)         | 15            |
 
 ## Contributing
 
