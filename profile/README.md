@@ -4,11 +4,11 @@
 
 _AI made writing the code easy. Running it in production is still hard._
 
-**Prod Forge** is an open-source reference that shows how to build and operate a production-ready system: AI-assisted
+**Prod Forge** is an open-source reference that shows how to take a system to production: AI-assisted
 development, quality gates, CI/CD, infrastructure, observability, migrations, and rollback.
 
 The implementation is a simple Todo app on purpose, but the architecture follows patterns used in real production
-systems at scale, and every major technical decision is documented and explained.
+systems, and every major technical decision is documented and explained.
 
 ## Start here
 
@@ -38,7 +38,7 @@ Read the guides in this order:
 
 ## What this is and what it is not
 
-- A reference with explained decisions: each chapter says what was chosen, why, and what the alternatives were.
+- A reference with explained decisions: chapters explain what was chosen and why.
 - A Todo app on purpose: the domain stays trivial so the production practices stay visible.
 - Not a boilerplate or a starter kit to fork and ship as is.
 - Not a framework: take the patterns that fit your system and leave the rest.
@@ -58,11 +58,11 @@ Read the guides in this order:
 
 ## Status
 
-| Repository                                           | Last release   | CI                                                                                                  | Docs chapters |
-| ---------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------- | ------------- |
-| [backend](https://github.com/prod-forge/backend)     | `v0.2.0`       | Runs on pull requests and pushes to `main`                                                          | 16            |
-| [frontend](https://github.com/prod-forge/frontend)   | `v1.2.2`       | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md) | 17            |
-| [terraform](https://github.com/prod-forge/terraform) | no release yet | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)         | 15            |
+| Repository                                           | Latest version                                                                                    | CI                                                                                                  | Docs chapters |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- |
+| [backend](https://github.com/prod-forge/backend)     | [0.2.0 (CHANGELOG, not published)](https://github.com/prod-forge/backend/blob/main/CHANGELOG.md)  | Runs on pull requests and pushes to `main`                                                          | 16            |
+| [frontend](https://github.com/prod-forge/frontend)   | [1.2.2 (CHANGELOG, not published)](https://github.com/prod-forge/frontend/blob/main/CHANGELOG.md) | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md) | 17            |
+| [terraform](https://github.com/prod-forge/terraform) | none                                                                                              | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)         | 15            |
 
 ## Contributing
 
