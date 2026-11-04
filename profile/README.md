@@ -58,11 +58,11 @@ Read the guides in this order:
 
 ## Status
 
-| Repository                                           | Latest version                                                                                     | CI                                                                                                  | Docs chapters |
-| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- |
-| [backend](https://github.com/prod-forge/backend)     | [1.0.0 (CHANGELOG, not published)](https://github.com/prod-forge/backend/blob/main/CHANGELOG.md)   | Runs on pull requests and pushes to `main`                                                          | 16            |
-| [frontend](https://github.com/prod-forge/frontend)   | [1.0.0 (CHANGELOG, not published)](https://github.com/prod-forge/frontend/blob/main/CHANGELOG.md)  | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md) | 17            |
-| [terraform](https://github.com/prod-forge/terraform) | [1.0.0 (CHANGELOG, not published)](https://github.com/prod-forge/terraform/blob/main/CHANGELOG.md) | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)         | 15            |
+| Repository                                           | Latest version                                                       | CI                                                                                                  | Docs chapters |
+| ---------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------- |
+| [backend](https://github.com/prod-forge/backend)     | [1.0.0](https://github.com/prod-forge/backend/releases/tag/v1.0.0)   | Runs on pull requests and pushes to `main`                                                          | 16            |
+| [frontend](https://github.com/prod-forge/frontend)   | [1.0.0](https://github.com/prod-forge/frontend/releases/tag/v1.0.0)  | Disabled on purpose, see the [roadmap](https://github.com/prod-forge/frontend/blob/main/roadmap.md) | 17            |
+| [terraform](https://github.com/prod-forge/terraform) | [1.0.0](https://github.com/prod-forge/terraform/releases/tag/v1.0.0) | Runs on pull requests and pushes to `main` (offline checks: fmt, validate, tflint, checkov)         | 15            |
 
 ## Contributing
 
