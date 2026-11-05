@@ -45,8 +45,8 @@ Read the guides in this order:
 
 ## Intentionally out of scope
 
-- Identity provider and password management: the API verifies signed JWTs and ships a login-by-email stub, see [Authentication and Authorization](https://github.com/prod-forge/backend/blob/main/docs/security.md#authentication-and-authorization)
-- Cursor pagination: list endpoints use offset pagination, see [Performance](https://github.com/prod-forge/backend/blob/main/docs/performance.md#offset-vs-cursor-pagination)
+- Identity provider and password management: the API verifies signed JWTs and ships a login-by-email stub, see [Authentication and Authorization](https://github.com/prod-forge/backend/blob/main/guide/security.md#authentication-and-authorization)
+- Cursor pagination: list endpoints use offset pagination, see [Performance](https://github.com/prod-forge/backend/blob/main/guide/performance.md#offset-vs-cursor-pagination)
 - Live demo or public deployment
 - Feature flags
 - A/B testing
