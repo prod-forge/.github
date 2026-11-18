@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Prod Forge" src="https://raw.githubusercontent.com/prod-forge/.github/main/assets/prod-forge-logo.png" width="264px" height="243px">
+  <img alt="Prod Forge" src="https://raw.githubusercontent.com/prod-forge/.github/main/assets/prod-forge-logo.png" width="120px" height="110px">
 </p>
 
 _AI made writing the code easy. Running it in production is still hard._
@@ -9,6 +9,27 @@ development, quality gates, CI/CD, infrastructure, observability, migrations, an
 
 The implementation is a simple Todo app on purpose, but the architecture follows patterns used in real production
 systems, and every major technical decision is documented and explained.
+
+## What you will find
+
+- **Safe releases:** migrations run as a one-off ECS task before the deploy, a rollback switches to one of the last
+  three task revisions, and in-flight requests drain on `SIGTERM`.
+  [Release Management](https://github.com/prod-forge/backend/blob/main/guide/release-management.md)
+- **One trace ID end to end:** created in the browser, carried to the backend logs, Sentry and Tempo.
+  [Client Observability](https://github.com/prod-forge/frontend/blob/main/guide/client-observability.md#trace-id-end-to-end)
+- **Web and mobile from one core:** a React client and an Expo app share one Redux store, API client and set of design
+  tokens. [Mobile Client](https://github.com/prod-forge/frontend/blob/main/guide/mobile-client.md#what-is-shared-and-what-is-not)
+- **A design system with gates:** every Storybook story has a visual snapshot and an axe-core accessibility check.
+  [Design System](https://github.com/prod-forge/frontend/blob/main/guide/design-system.md)
+- **Infrastructure you can review:** dev and prod from one Terraform module, GitHub OIDC instead of static keys, offline
+  `checkov` and `tflint` on every pull request.
+  [Environments](https://github.com/prod-forge/terraform/blob/main/guide/environments.md)
+- **Numbers, not promises:** RPO about 5 minutes, a cost estimate of about 150 USD a month for dev and 580 USD for prod.
+  [Backup and DR](https://github.com/prod-forge/terraform/blob/main/guide/backup-and-dr.md),
+  [Cost](https://github.com/prod-forge/terraform/blob/main/guide/cost.md)
+- **AI-assisted development with guardrails:** `AGENTS.md`, a `docs/` reference and approved plans in every repository,
+  behind the same quality gates as hand-written code.
+  [AI-Assisted Development](https://github.com/prod-forge/backend/blob/main/guide/ai-development.md)
 
 ## Start here
 
